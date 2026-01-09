@@ -12,10 +12,10 @@ import (
 
 func main() {
     if len(os.Args) != 2 {
-        fmt.Println(" ------------------------------------------------------------")
-        fmt.Println(" CLEAN_PDB_WATERS deletes water molecules with zero occupancy")
-        fmt.Println(" Usage: clean_pdb_waters <INPUT>")
-        fmt.Println(" ------------------------------------------------------------")
+        fmt.Println(" --------------------------------------------------------")
+        fmt.Println(" CLEAN_WATERS deletes water molecules with zero occupancy")
+        fmt.Println(" Usage: clean_waters <INPUT>")
+        fmt.Println(" --------------------------------------------------------")
         return
     }
 

@@ -14,12 +14,14 @@ In final stages of structure refinement, questionable waters are repeatedly adde
 
 ## 🔧 Installation
 
-Clone the repository and build the program:
+Download binary 'clean_waters' and make it executable. ;-)
+
+Alternatively, clone the repository, make some changes to the code and build the program:
 
 ```bash
 git clone https://github.com/kolenpe1/clean_waters.git
 cd clean_waters
-go build -o clean_waters
+go build clean_waters.go
 ```
 
 Copy file 'clean_waters' to your 'bin' directory and run.
@@ -27,7 +29,7 @@ Copy file 'clean_waters' to your 'bin' directory and run.
 
 ## 🧪 Example
 
-To clean a PDB file named `example.pdb`, run:
+To clean a PDB (or mmCIF) file named `example.pdb`, run:
 ```bash
 clean_waters example.pdb
 ```
